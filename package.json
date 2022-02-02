@@ -1,0 +1,38 @@
+{
+  "name": "@jeffreyart1/houdini",
+  "version": "0.0.1",
+  "description": "The escapist",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffreyArt1/houdini.git"
+  },
+  "keywords": [
+    "houdini",
+    "escapist",
+    "escape"
+  ],
+  "author": "Jeffrey Mesa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeffreyArt1/houdini/issues"
+  },
+  "homepage": "https://github.com/JeffreyArt1/houdini#readme",
+  "exports": {
+    ".": "./dist/main.js",
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/main.js",
+  "typings": "dist/main.d.ts",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
